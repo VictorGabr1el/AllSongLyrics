@@ -1,0 +1,68 @@
+body {
+  width: 700px;
+  margin-inline: auto;
+  font-family: system-ui;
+}
+
+header {
+  margin-inline: auto;
+  width: max-content;
+}
+
+.title {
+  font-size: x-large;
+}
+
+form {
+  border: solid 1px;
+  height: 110px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  padding: 3%;
+}
+
+.div_flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.div_form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+  width: 49%;
+}
+
+label {
+  margin-left: 4px;
+}
+
+input {
+  padding: 8px;
+  font-size: inherit;
+  border-radius: 8px;
+  border: solid 2px #00c0ae;
+  outline: none;
+  background: aliceblue;
+  transition: 300ms;
+}
+
+input:focus {
+  border: solid 2px #0099c0;
+}
+
+.btn_search {
+  background: #e8f0fe;
+  border: none;
+  font-size: inherit;
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.btn_search:active {
+  background-color: rgb(167, 167, 167);
+}
