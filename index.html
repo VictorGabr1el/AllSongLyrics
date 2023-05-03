@@ -16,35 +16,34 @@
         </h4>
     </header>
     <main>
-        <div>
-            <form onsubmit="Search(event)">
-                <div class="div_flex">
-                    <div class="div_form">
-                        <label for="artista">Artista</label>
-                        <input type="text" name="artista">
-                    </div>
-                    <div class="div_form">
-                        <label for="musica">Musica</label>
-                        <input type="text" name="musica">
-                    </div>
+        <form onsubmit="Search(event)">
+            <div class="div_flex">
+                <div class="div_form">
+                    <label for="artista">Artista</label>
+                    <input type="text" name="artista">
                 </div>
-                <div>
-                    <button type="submit" class="btn_search">
-                        Pesquisar
-                    </button>
+                <div class="div_form">
+                    <label for="musica">Musica</label>
+                    <input type="text" name="musica">
                 </div>
-            </form>
-            <section>
-                <div>
-                    <h4 class="artista"></h4>
-                </div>
-                <div>
-                    <p class="show_lyric"></p>
-                </div>
-            </section>
+            </div>
+            <div>
+                <button type="submit" class="btn_search">
+                    Pesquisar
+                </button>
+            </div>
+        </form>
+        <section>
+            <div>
+                <h4 class="artista"></h4>
+            </div>
+            <div>
+                <p class="show_lyric"></p>
+            </div>
+        </section>
         </div>
         <div>
-        </div>
+
     </main>
     <script src="script.js"></script>
 </body>

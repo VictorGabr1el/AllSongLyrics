@@ -11,7 +11,7 @@ async function Search(event) {
     `https://api.vagalume.com.br/search.php?art=${artista}&mus=${musica}`
   ).then((res) => res.json());
 
-  if (response.type === "notfound") {
+  if (response.type === "notfound" || response.type === "song_notfound") {
     return (showLyric.innerText = "musica não encontrada");
   }
   console.log(response);
